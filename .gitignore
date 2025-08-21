@@ -157,3 +157,6 @@ Thumbs.db
 # Temporary files
 temp_*/
 *.tmp
+
+# 保存画像
+media/
