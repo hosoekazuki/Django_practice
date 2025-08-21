@@ -18,6 +18,36 @@
                 "DB_PASSWORD": "Kazuki1201",
                 "DJANGO_SETTINGS_MODULE": "private_diary.settings_dev"
             }
+        },
+        {
+            "name": "makemigrations",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "C:\\Users\\hosoe\\OneDrive\\デスクトップ\\Django_practice\\private_diary\\manage.py",
+            "args": [
+                "makemigrations"
+            ],
+            "django": true,
+            "env": {
+                "DB_USER": "postgres",
+                "DB_PASSWORD": "Kazuki1201",
+                "DJANGO_SETTINGS_MODULE": "private_diary.settings_dev"
+            }
+        },
+        {
+            "name": "migrate",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "C:\\Users\\hosoe\\OneDrive\\デスクトップ\\Django_practice\\private_diary\\manage.py",
+            "args": [
+                "migrate"
+            ],
+            "django": true,
+            "env": {
+                "DB_USER": "postgres",
+                "DB_PASSWORD": "Kazuki1201",
+                "DJANGO_SETTINGS_MODULE": "private_diary.settings_dev"
+            }
         }
     ]
 }
